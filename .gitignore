@@ -3,3 +3,7 @@
 *.py
 what
 *.bin
+.vscode/
+dib_fuck_fail.cpp
+list_try.cpp
+*.txt
