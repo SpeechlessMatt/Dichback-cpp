@@ -199,7 +199,7 @@ void le_dib_main(int input_len, int least_split_degree = 1){
             // 如果rec里面记录biglist大小为0，则没有申请空间
             // temp_big_list和temp_possible一起释放了
             // 修改！
-            // 引出结果
+            // 引出结果:
             }else if (temp_rec_biglist_len[i] != 0 && temp_rec_poschars_len[i] <= least_split_degree){
                 delete []temp_possible_chars[i];
                 delete []temp_big_list[i];
